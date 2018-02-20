@@ -23,7 +23,8 @@ attr_reader :name, :roster
 
   def sort
     @roster.each do |grade|
-      @roster[grade].sort!
+      grade.sort!
+    end
     end
 
   end
