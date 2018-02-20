@@ -7,7 +7,7 @@ attr_reader :name, :roster
     @name = name
 
     def roster(name,age)
-      @roster = {age => [name]}
+      @roster = {}
     end
   end
 
