@@ -1,7 +1,7 @@
 # code here!
 class School
 
-attr_reader :name
+attr_reader :name :roster
 
   def initialize(name)
     @name = name
@@ -10,15 +10,7 @@ attr_reader :name
       @roster = {}
     end
   end
-  #
-  # def roster
-  #
-  # end
 
-  # def add_student(name, age)
-  #
-  #   @roster << [age => name]
-  # end
 
 
 end
