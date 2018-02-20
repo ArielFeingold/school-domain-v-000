@@ -23,9 +23,9 @@ attr_reader :name, :roster
 
   def sort
     @roster.each do |grade|
-      grade.sort!
+      grade.sort
     end
-    end
+  end
 
   end
 
