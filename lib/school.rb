@@ -5,7 +5,10 @@ attr_reader :name
 
   def initialize(name)
     @name = name
-        @roster = {}
+
+    def roster
+      @roster = {}
+    end
   end
   #
   # def roster
