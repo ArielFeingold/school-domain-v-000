@@ -11,9 +11,9 @@ attr_reader :name
     @roster = {}
   end
 
-  def add_student(student_name, student_age)
+  def add_student(name, age)
 
-    @roster << [student_name, student_age]
+    @roster << [age => name]
   end
 
 
