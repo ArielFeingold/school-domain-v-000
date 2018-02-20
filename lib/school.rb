@@ -1,9 +1,10 @@
 # code here!
-class School(name)
-  # attr_reader :name
-  #
-  # def initialize
-  #   @name = name
-  # end
+class School
+
+attr_reader :name
+
+def initialize(name)
+  @name = name
+end
 
 end
