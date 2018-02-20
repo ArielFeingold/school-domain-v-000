@@ -12,7 +12,7 @@ attr_reader :name
   end
 
   def add_student(name, age)
-
+    @roster << [name, age]
   end
 
 
