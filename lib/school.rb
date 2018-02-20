@@ -7,15 +7,15 @@ attr_reader :name
     @name = name
         @roster = {}
   end
-  # 
+  #
   # def roster
   #
   # end
 
-  def add_student(name, age)
-
-    @roster << [age => name]
-  end
+  # def add_student(name, age)
+  #
+  #   @roster << [age => name]
+  # end
 
 
 end
