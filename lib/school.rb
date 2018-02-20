@@ -1,7 +1,7 @@
 # code here!
 class School
 
-attr_reader :name, :roster
+attr_reader :name, 
 
   def initialize(name)
     @name = name
@@ -11,13 +11,13 @@ attr_reader :name, :roster
     end
   end
 
-  def add_student(age, name)
-    if !@roster.has_key?(age)
-      @roster[age] = []
-      @roster[age] << name
-    else @roster[age] << name
+  def add_student(grade, name)
+    if @roster.has_key?(grade)
+      @roster[grade] << name
+    else
+      @roster[grade] = []
+      @roster[grade] << name
     end
-
   end
 
 
