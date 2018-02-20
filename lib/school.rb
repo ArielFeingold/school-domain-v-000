@@ -8,7 +8,11 @@ attr_reader :name
   end
 
   def roster
-    roster = []
+    @roster = []
+  end
+
+  def add_student(name, age)
+
   end
 
 
