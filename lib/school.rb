@@ -12,8 +12,8 @@ attr_reader :name, :roster
   end
 
   def add_student(new_key, new_value_for_value_array)
-    hash[new_key] = []
-    hash[new_key] << new_value_for_value_array
+    @roster[new_key] = []
+    @roster[new_key] << new_value_for_value_array
   end
 
 
