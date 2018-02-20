@@ -12,7 +12,7 @@ attr_reader :name, :roster
   end
 
   def add_student(age, name)
-    if !key?(age)
+    if !@roster.key?(age)
       key = []
       key << name
     else key << name
